@@ -2,6 +2,7 @@ public class Percolation {
 
     // 0 is CLOSED 1 is OPEN
     private int[][] grid;
+    //test
 
     public Percolation(int n) {
         grid = new int[n][n];
@@ -21,8 +22,7 @@ public class Percolation {
     public boolean isFull(int row, int col) {
         if (grid[row][col] == 0) {
             return true;
-        }
-        else {
+        } else {
             return false;
         }
     }
